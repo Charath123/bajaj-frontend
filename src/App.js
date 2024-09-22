@@ -15,7 +15,7 @@ function App() {
       const jsonData = JSON.parse(sanitizedInput);
 
       // Make the POST request
-      const res = await fetch("http://localhost:5000/bfhl", {
+      const res = await fetch("https://bajaj-bakend-btkh.vercel.app/bfhl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
